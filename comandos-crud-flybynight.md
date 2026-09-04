@@ -69,3 +69,4 @@ INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(2, 1, 20);
  
  INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES ( 4, 1,2);
 ```
+
