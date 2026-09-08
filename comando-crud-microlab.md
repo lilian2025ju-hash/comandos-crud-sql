@@ -42,7 +42,7 @@ INSERT INTO noticias
 
  ('Novidades de Entretenimento' 'Filmes e series', 'O mundo do Entretedimento esta cada vez mais concorrido', 'entretedimento.jpg','nao',3,3),
 
- ('','','','',)
+ ('Tecnologia e inovação','Novas ferramentas estão surgindo','Atividades do dia mais praticos','Inovação.jpg', 'nao',1,1);
 
     
 
