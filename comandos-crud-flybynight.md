@@ -70,3 +70,31 @@ INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES(2, 1, 20);
  INSERT INTO lojas_produtos(loja_id, produto_id, estoque) VALUES ( 4, 1,2);
 ```
 
+---
+## UPTADE NA TABELA FORNECEDORES
+
+```sql
+
+UPDATE fornecedores SET nome = 'Mundo dos Games'
+WHERE id = 2;
+
+```
+
+## UPTADE NA TABELA PRODUTOS
+
+```sql
+
+UPDATE produtos SET PRECO = 2999, quantidade = 5 WHERE id = 3;
+
+```
+
+## UPDATE NA TABELA LOJAS_PRODUTOS
+
+```sql
+
+UPDATE lojas_produtos SET estoque = 4 WHERE loja_id = 2 AND produto_id = 1;
+
+--SQL aceita operadores lógicos: AND(E), OR(OU), NOT(Não)
+
+
+```
