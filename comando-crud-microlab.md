@@ -15,8 +15,8 @@ INSERT INTO usuarios(nome , email, senha, tipo) VALUES
 --Insert  tabelas categorias
 ```sql
 INSERT INTO categorias (nome) VALUES
-('Tecnologia'),(')
-
-
+('Tecnologia'),
+('Educação'),
+('Entretenimento');
 
 ```
