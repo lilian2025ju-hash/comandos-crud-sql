@@ -40,7 +40,9 @@ INSERT INTO noticias
 
 ( 'A importancia da educação','A educação é fundamental para o desenvolvimento da sociedade', 'Investir em educação é importante para criar varias oportunidades','noticias.jpg','sim',2,2),
 
--- ('')
+ ('Novidades de Entretenimento' 'Filmes e series', 'O mundo do Entretedimento esta cada vez mais concorrido', 'entretedimento.jpg','nao',3,3),
+
+ ('','','','',)
 
     
 
