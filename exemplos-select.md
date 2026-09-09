@@ -21,7 +21,7 @@ SELECT * FROM produtos;
 
 ```sql
 
-
+SELECT nome, preco FROM produtos;
 
 
 ```
