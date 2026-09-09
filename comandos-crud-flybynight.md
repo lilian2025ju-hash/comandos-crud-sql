@@ -102,6 +102,8 @@ UPDATE lojas_produtos SET estoque = 4 WHERE loja_id = 2 AND produto_id = 1;
 ## DELETE NA TABELA FORNECEDORES
 
 ```sql
-DELETE FROM produtos WHERE id = 5;
+
 
 ```
+
+
