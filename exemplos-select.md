@@ -23,5 +23,17 @@ SELECT * FROM produtos;
 
 SELECT nome, preco FROM produtos;
 
+```
+
+## Alterando o nome de exibição das colunas
+
+Usamos o comando `As` para criar um **apelido( alias)**.
+
+```sql
+SELECT
+nome AS produto,
+preco AS valor
+from produtos;
+
 
 ```
