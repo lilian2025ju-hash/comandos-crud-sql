@@ -285,6 +285,12 @@ SELECT
     ROUND(AVG(preco),2) AS preco_medio
   FROM produtos
   WHERE quantidade > 0
-  
+
 
 ```
+
+** Obs :** ao combinar estes recursos, a ordem deve ser:
+ 
+1. WHERE
+2. GROUP BY/HAVING
+3. ORDER BY
