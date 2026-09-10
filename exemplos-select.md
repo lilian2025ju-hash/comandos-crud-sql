@@ -249,3 +249,7 @@ FROM produtos GROUP BY fornecedor_id;
 
 ### DETERMINANDO A MÉDIA DE PREÇOS POR FORNECEDOR
 
+```sql
+SELECT fornecedor_id, ROUND(AVG(preco), 2) AS preco_medio
+FROM produtos GROUP BY fornecedor_id;
+```
