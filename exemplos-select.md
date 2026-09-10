@@ -232,3 +232,20 @@ MAX(preco)AS maior_preco,
 ROUND(AVG(PRECO),2) AS preco_medio
 FROM produtos;
 ```
+
+**Atenção:** não coloque espaço entre o nome da função e os parênteses!!
+
+## RECURSOS DE AGRUPAMENTO
+
+`GROUP BY` Reúne Registros que possuem um determinado valor comum
+
+Exemplo: descobrir quantos produtos existem em cada fornecedor.
+
+```sql
+SELECT fornecedor_id, COUNT(*) AS total_produto
+FROM produtos GROUP BY fornecedor_id;
+
+```
+
+### DETERMINANDO A MÉDIA DE PREÇOS POR FORNECEDOR
+
