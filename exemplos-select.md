@@ -203,3 +203,12 @@ Somar a quantidade de todos os produtos da tabela:
 SELECT SUM(quantidade) AS "QUANTIDADE TOTAL" FROM produtos;
 
 ```
+### AVG
+
+Calcular a média dos preços dos produtos:
+
+```sql
+
+SELECT AVG(preco) AS "MÉDIA DOS PREÇOS" FROM produtos;
+
+```
