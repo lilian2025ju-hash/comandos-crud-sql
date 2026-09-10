@@ -194,3 +194,12 @@ Contando quantos registros existem na tabela produtos:
 SELECT COUNT(*) AS total FROM produtos;
 
 ```
+
+### SUM
+
+Somar a quantidade de todos os produtos da tabela:
+
+```sql
+SELECT SUM(quantidade) AS "QUANTIDADE TOTAL" FROM produtos;
+
+```
