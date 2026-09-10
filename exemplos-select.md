@@ -131,3 +131,66 @@ Sem usar o `IN`, teríamos que fazer a lógica com multiplos `OR`
   fornecedor_id = 8;
 
 ```
+
+### LIKE
+ 
+`LIKE` é usado principalmente para realizar pesquisas em textos. Junto com o caractere `%` permite fazer buscas baseadas em partes de uma string.
+ 
+Exemplo: procurar produtos que tenham a palavra **Gamer** em qualquer posição do nome.
+ 
+```sql
+SELECT nome, preco FROM produtos
+WHERE nome LIKE '%GAMER%'
+
+```
+## DISTINCT
+Elimina valores repetidos do resultado da consulta.
+
+```sql
+SELECT DISTINCT fornecedor_id FROM produtos;
+```
+
+## ORDENAÇÃO( OU CLASSIFICAÇÃO)
+
+Usamos o `ORDER BY` para organizar os registros do resultado.
+
+### ORDEM CRESCENTE (PADRÃO)
+DO MENOR PARA O MAIOR, OU DE A-Z,DE MAIS ANTIGO PARA MAIS RECENTE.
+
+```sql
+SELECT nome, preco FROM produtos
+ORDER BY preco ASC; --Nem precisa colocar o Asc, pois é padrão
+```
+```sql
+SELECT nome, preco FROM produtos
+ORDER BY preco DESC;
+```
+
+## ORDENANDO POR MAIS DE UMA CULUNA
+```sql
+SELECT nome, preco FROM produtos
+ORDER BY preco DESC, nome ASC;
+
+```
+## FUNÇÕES DE AGREGAÇÃO
+
+Funções de agregação realizam cálculos ou processos em registros de um resultado.
+
+Entre as principais
+
+- `COUNT ()`->conta registros
+- `SUM ()` ->soma valores
+- `AVG ()`->calcula a média de valores
+- `MIN ()`->encontra o menor valor
+- `MAX ()`->encontra o maior valor
+- `ROUND ()`->arredonda valores e define casas decimais
+
+## COUNT
+
+Contando quantos registros existem na tabela produtos:
+
+```sql
+
+SELECT COUNT(*) AS total FROM produtos;
+
+```
